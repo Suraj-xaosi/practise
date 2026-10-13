@@ -22,11 +22,11 @@ function myUseState<T>(initialValue: T): [T, (newValue: T) => void] {
 
 // Render simulation function
 function renderComponent(): void {
-  cursor = 0; // ⚠️ SABSE ZAROORI: Har render ke shuru mein cursor reset hoga!
+  cursor = 0; //  SABSE ZAROORI: Har render ke shuru mein cursor reset hoga!
   
   // Maan lo yeh aapka React component hai
   const [count, setCount] = myUseState(0);     // Hook 0
-  const [name, setName] = myUseState("Amit");  // Hook 1
+  const [name, setName] = myUseState("suraj");  // Hook 1
 
   console.log(`Render -> Count: ${count}, Name: ${name}`);
 
